@@ -1,0 +1,21 @@
+{
+  "name": "test-rolldown-rollup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "sideEffects": false,
+  "main": "index.js",
+  "scripts": {
+    "build:rolldown": "rolldown -c",
+    "build:rollup": "rollup -c",
+    "build": "pnpm run build:rolldown && pnpm run build:rollup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "rolldown": "1.0.0-beta.8",
+    "rollup": "4.40.0"
+  }
+}
