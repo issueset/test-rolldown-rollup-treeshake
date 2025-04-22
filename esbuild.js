@@ -6,4 +6,5 @@ build({
   treeShaking: true,
   minify: true,
   outdir: "dist/output_esbuild",
+  format: "esm",
 });
